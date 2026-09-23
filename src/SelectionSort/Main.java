@@ -22,7 +22,7 @@ public class Main {
         int[] lista100ElementosOriginal = lista100Elementos.clone(); //Salvo um clone da lista original
 
         //int [] listaOrganizada = SelectionSort.ordenar(lista);
-        SelectionSort.ordenar(lista100Elementos); //Ordeno a lista usando o método ordenar da classe SelectionSort
+        SelectionSort.ordenar(lista100Elementos); //Ordeno a lista usando o metodo ordenar da classe SelectionSort
 
         System.out.println("Desordenada: " + Arrays.toString(lista100ElementosOriginal));
         System.out.println("Ordenada: " + Arrays.toString(lista100Elementos));
